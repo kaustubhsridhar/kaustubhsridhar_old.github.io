@@ -1,0 +1,57 @@
+---
+layout: default
+title: Research
+---
+
+	<div class="research">
+		<h1>Research Projects</h1>
+		<p> Contents
+		<ol>
+			<li> <a href="https://kaustubhsridhar.github.io/research/#robustness">University of Pennsylvania, USA</a></li>
+			<li> <a href="https://kaustubhsridhar.github.io/research/#checkpointing">University of Pennsylvania (in collaboration with Intel Labs), USA</a></li>
+			<li> <a href="https://kaustubhsridhar.github.io/research/#pajic_duke">Duke Univeristy, USA</a></li>
+			<li> <a href="https://kaustubhsridhar.github.io/research/#padhi_iisc">Indian Institute of Science, India</a></li>
+			<li> <a href="https://kaustubhsridhar.github.io/research/#btp_iitb">IIT Bombay, India</a></li>
+			<li> <a href="https://kaustubhsridhar.github.io/research/#srikant_iitb">More at IIT Bombay, India</a></li>
+		</ol>
+		<h4><a id="robustness">1. Real-Time Detectors for Digital and Physical Adversarial Inputs to Perception Systems</h4>
+		<p> Yiannis Kantaros, Taylor Carpenter, Yahan Yang, <a href="http://www.cis.upenn.edu/~lee/home/index.shtml">Prof. Insup Lee</a>, <a href="https://www.seas.upenn.edu/~weimerj/">Prof. James Weimer</a>, PRECISE Center, University of Pennsylvania</p>
+		<p style="font-size:16px;color:red"> Accepted at 12th ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), 2021. <a href="https://drive.google.com/file/d/1YBQ4eFq8vDrz6Hm2ERqqoIyjhhs731uM/view?usp=sharing">Paper...</a> </p>
+		<p style="font-size:16px"> Abstract: Deep neural network (DNN) models have proven to be vulnerable to adversarial digital and physical attacks. In this paper, we propose a novel attack- and dataset-agnostic and real-time detector for both types of adversarial inputs to DNN-based perception systems. In particular, the proposed detector relies on the observation that adversarial images are sensitive to certain label-invariant transformations. Specically, to determine if an image has been adversarially manipulated, the proposed detector checks if the output of the target classier on a given input image changes signicantly after feeding it a transformed version of the image under investigation. Moreover, we show that the proposed detector is computationally-light both at runtime and design-time which makes it suitable for real-time applications that may also involve large-scale image domains. To highlight this, we demonstrate the efficiency of the proposed detector on ImageNet, a task that is computationally challenging for the majority of relevant defenses, and on physically attacked traffic signs that may be encountered in real-time autonomy applications.
+			</p>
+			
+		<h4><a id="checkpointing">2. A Framework for Sensor-Anomaly Resilience and Recovery of Cyber-Physical Systems</a>		2019-Present </h4>
+		<p> <a href="https://www.seas.upenn.edu/~weimerj/">Prof. James Weimer</a>, <a href="https://www.seas.upenn.edu/directory/profile.php?ID=91">Prof. Oleg Sokolsky</a>, <a href="http://www.cis.upenn.edu/~lee/home/index.shtml">Prof. Insup Lee</a>, PRECISE Center, University of Pennsylvania</p>
+		<p> In collaboration with Marcio Juliato, Manoj Sastry, Vuk Lesi and Lily Yang at Intel Labs</p>
+		<p style="font-size:16px"> This <a href="https://drive.google.com/file/d/1s9rYpJYRZ7UUR3u5IDfulorgpkcPfmll/view?usp=sharing">paper </a> tackles the problem of making complex resource-constrained cyber-physical systems (CPS) resilient to sensor anomalies. In particular, we present a framework for checkpointing and roll-forward recovery of state-estimates in nonlinear, hierarchical CPS with anomalous sensor data. Our framework has algorithms implementing a consistent paradigm for accurate recovery in a time-efficient manner while managing the tradeoff with system resources and handling the interplay between diverse anomaly detection systems across the hierarchy. Further in this work, we detail bounds on the recovered state-estimate error, maximum tolerable anomaly duration and the accuracy-resource gap that results from the aforementioned tradeoff. We evaluate it on a case study of a simulated ground robot to show that it scales to multiple hierarchies and performs better than an extended Kalman filter (EKF).
+		</p>	
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/E7r3b_7CRJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<h4><a id="pajic_duke">3. Development of a Self-Driving Car like Testbed for testing Intrusion Detection Systems</a>		Summer 2018 </h4>
+		<p> <a href="http://people.duke.edu/~mp275/">Prof. Miroslav Pajic, Duke Univeristy</a></p>
+		<p style="font-size:16px"> Abstract: A software environment (in ROS (Robotic Operating System)) was created for the robot seen in the below video. Following which, a image processing pipeline was created such that the robot is able to stay within a lane using only its onboard camera. The pipeline consisted of identifying all edges, identifying those edges belonging to lane markers, classifying lane markers, using RANSAC to fit a polynomial and finding a polynomial to represent the lane. Further, few Intrusion Detection Systems were proposed and testing for the same was initiated. <a href="https://drive.google.com/open?id=1TEuas99Qczz3-11ldr8bIFlTo9eIJh5-">More info...</a> </p>	
+		<p style="font-size:14px"> Videos: (left) Shows lane keeping performed by eBuggy Autonomous Vehicle (right) Shows the onboard camera view and steps in the image processing pipeline </p>
+		        <iframe width="400" height="225" src="https://www.youtube.com/embed/3GDlE-lUcyo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		        <iframe width="400" height="225" src="https://www.youtube.com/embed/9btjuVfwbdc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+		<h4><a id="padhi_iisc">4. Bio-inspired Landing of Quadrotor Using Improved State Estimation</a>			Summer 2017 </h4>
+		<p> <a href="http://aero.iisc.ernet.in/people/radhakant-padhi/">Prof. Radhakant Padhi, Indian Institute of Science</a></p>
+		<p style="font-size:16px;color:red"> Published in Proceedings of 5th IFAC Conference on Advances in Control and Optimisation of Dynamical Systems, 2018. <a href="https://sciencedirect.com/science/article/pii/S2405896318302428">Paper...</a> </p>
+		<p style="font-size:16px"> Abstract: This paper presents an improved state estimation technique - a fusion of Monocular SLAM (Simultaneous Localization and Mapping) and INS (Inertial Navigation System). It is utilized in landing a commercially available low cost quadrotor (Parrot AR Drone 2.0) in indoor environments along a trajectory generated by a bio-inspired guidance method. The method is based on Tau theory and facilitates safe and smooth landing of UAVs by closing motion gaps with zero relative velocity and acceleration. A depth camera (Microsoft Kinect) provides a helping hand in very accurate landing towards the end of the quadrotor’s trajectory. A dynamic inversion based controller is designed which works as a outer loop controller for the quadrotor. </p>	
+		<p style="font-size:14px"> Video: Shows Parrot AR Drone landing along a bio-inspired trajectory at 6m height and 10 m away from landing zone </p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/78-YjlWeom0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+		<h4><a id="btp_iitb">5. Event Triggered Control of Quadrotors</a>		2018 </h4>
+		<p> <a href="http://sc.iitb.ac.in/~srikant/dokuwiki/doku.php">Prof. Srikant Sukumar, IIT Bombay</a></p>
+		<p style="font-size:16px;color:red"> Published in Proceedings of 5th CEAS Conference on Guidance, Navigation and Control, Italy, 2019. <a href="https://drive.google.com/file/d/1dEDwVyI4ggsCkpZf2huyb3aA7n39zOxm/view?usp=sharing">Paper...</a> </p>
+		<p style="font-size:16px"> Abstract: In this paper, we present a novel quaternion-based event triggered control strategy for trajectory tracking with a quadrotor that is suitable for implementation on digital platforms with hardware constraints. The proposed control ensures asymptotic convergence to a desired position trajectory and finite time convergence to a desired attitude trajectory. We also present Lyapunov based analysis to demonstrate validity of the triggering scheme and also rule out Zeno behaviour. The performance of the event triggered control laws are demonstrated through numerical simulations.</p>	
+		
+		<h4><a id="srikant_iitb">6. Trajectory Tracking using Backstepping Control on a Parrot AR Drone</a>		Aug-Dec 2017 </h4>
+		<p> <a href="http://sc.iitb.ac.in/~srikant/dokuwiki/doku.php">Prof. Srikant Sukumar, IIT Bombay</a></p>
+		<p style="font-size:16px"> Abstract: Backstepping control for the Parrot AR Drone as described in [1] was implemented on the same with the help of a VICON Motion Capture system. Also, a preliminary validation of the control law was performed on the opensource Gazebo simulator. <a href="https://drive.google.com/open?id=1SKWA6m6MqZdCSWTcLR8-jucBN0QVUorO">More info...</a> </p>
+		<p style="font-size:14px"> Videos: (left) Parrot AR Drone tracking 8 shape trajectory (right) Parrot AR Drone tracking trajectory of RC Car </p>
+			<iframe width="400" height="225" src="https://www.youtube.com/embed/DCzn9Angy2s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="400" height="225" src="https://www.youtube.com/embed/riiJ3pi4EY8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+		
+	</div>
