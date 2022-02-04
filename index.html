@@ -16,6 +16,18 @@ title: Welcome To My Homepage
 	
 	<h3>Research</h3>
 	<p>My research aims to build and analyze safety-critical learning-enabled cyber-physical systems (LE-CPS). Towards that goal, I'm working on, </p>
+
+	<h5><ul>
+		<li><a id="RL">Efficient Deep Reinforcement Learning</a></li>
+	</ul></h5>
+
+	<img src="/images/fetch_4blocks.gif" alt="craft_fetch" align="left" style="width:300px; height:150px; padding: 10px;" class="img_rect">
+	<p><a id="OptionTemplates"><a href="https://drive.google.com/file/d/1Np63tQhE0ao9lHFkUMg9qrRRt6IkTJFA/view?usp=sharing">Reinforcement Learning with Expert Interventions via Option Templates</a></a></p>
+	<p><a href="https://sites.google.com/site/duttasouradeep39/">Souradeep Dutta</a>, <b>Kaustubh Sridhar</b>, Osbert Bastani, James Weimer, Edgar Dobriban, Insup Lee, Julia Parish-Morris</p>
+	<p>Submitted to <a href="https://icml.cc/">ICML</a> 2022</p>
+	<p><a href="https://drive.google.com/file/d/1Np63tQhE0ao9lHFkUMg9qrRRt6IkTJFA/view?usp=sharing">preprint</a> / website (TBA) / code (TBA) </p>
+	<p><small>We propose a framework for leveraging expert intervention to solve long-horizon reinforcement learning tasks. We consider option templates, which are specifications encoding a potential option that can be trained using reinforcement learning. We formulate expert intervention as allowing the agent to execute option templates  before learning an implementation, thereby enabling them to determine whether an option is useful before committing costly resources to learning that option. We demonstrate the benefits of our approach on three challenging reinforcement learning problems, improving performance by an order of magnitude compared to state-of-the-art approaches.
+		</small></p>
 		
 	<h5><ul>
 		<li><a id="RobustDL">Robust Deep Learning</a></li>
@@ -24,8 +36,9 @@ title: Welcome To My Homepage
 	<img src="/images/trajectories.gif" alt="PoE" align="left" style="width:230px; height:150px; padding: 45px;" class="img_rect">
 	<p><a id="PoE"><a href="https://arxiv.org/abs/2106.02078">Improving Neural Network Robustness via Persistency of Excitation</a></a></p>
 	<p><b>Kaustubh Sridhar</b>, Oleg Sokolsky, Insup Lee, James Weimer</p>
+	<p><a href="https://acc2022.a2c2.org/">ACC</a> 2022</p>
 	<p><a href="https://arxiv.org/abs/2106.02078">arXiv</a> / <a href="https://github.com/kaustubhsridhar/PoE-robustness">code</a> / <a href="https://docs.google.com/presentation/d/e/2PACX-1vTNJ5e35OwacfBx19V0FjeEaBRj8cGTaFngpP1KdrWxnDFShwFR9zAZyfLWghlDlQ/pub?start=true&loop=true&delayms=3000">poster</a> / <a href="https://robustbench.github.io/">leaderboard</a></p>
-	<p><small>Improving adversarial robustness of neural networks remains a major challenge. Fundamentally, training a neural network via gradient descent is a parameter estimation problem. In adaptive control, maintaining persistency of excitation (PoE) is integral to ensuring convergence of parameter estimates in dynamical systems to their true values. We show that parameter estimation with gradient descent can be modeled as a sampling of an adaptive linear time-varying continuous system. Leveraging this model, and with inspiration from Model-Reference Adaptive Control (MRAC), we prove a sufficient condition to constrain gradient descent updates to reference persistently excited trajectories converging to the true parameters. The sufficient condition is achieved when the learning rate is less than the inverse of the Lipschitz constant of the gradient of loss function. We provide an efficient technique for estimating the corresponding Lipschitz constant in practice using extreme value theory. Our experimental results in both standard and adversarial training illustrate that networks trained with the PoE-motivated learning rate schedule have similar clean accuracy but are significantly more robust to adversarial attacks than models trained using current state-of-the-art heuristics.
+	<p><small>Improving adversarial robustness of neural networks remains a major challenge. Fundamentally, training a neural network via gradient descent is a parameter estimation problem. In adaptive control, maintaining persistency of excitation (PoE) is integral to ensuring convergence of parameter estimates in dynamical systems to their true values. We show that parameter estimation with gradient descent can be modeled as a sampling of an adaptive linear time-varying continuous system. Leveraging this model, and with inspiration from Model-Reference Adaptive Control, we prove a sufficient condition to constrain gradient descent updates to reference persistently excited trajectories converging to the true parameters. The sufficient condition is achieved when the learning rate is less than the inverse of the Lipschitz constant of the gradient of loss function. Our experimental results in both standard and adversarial training illustrate that networks trained with the PoE-motivated learning rate schedule have similar clean accuracy but are significantly more robust to adversarial attacks than state-of-the-art models.
 		</small></p>
 	
 	<!--<br>-->
@@ -36,16 +49,13 @@ title: Welcome To My Homepage
 	<p><a href="https://dl.acm.org/doi/abs/10.1145/3450267.3450535">proceedings</a> / <a href="https://advnet.seas.upenn.edu/#">dataset webpage</a></p>
 	<p><small>We propose a novel attack- and dataset-agnostic and real-time detector for digital / physical adversarial inputs to DNN-based perception systems. We demonstrate the efficiency of the proposed detector on ImageNet, a task that is computationally challenging for the majority of relevant defenses, and on physically attacked traffic signs that may be encountered in real-time autonomy applications.</small></p>
 
-	<h5><ul>
-		<li><a id="RL">Efficient Deep Reinforcement Learning</a></li>
-	</ul></h5>
-
-	<img src="/images/fetch_4blocks.gif" alt="craft_fetch" align="left" style="width:300px; height:150px; padding: 10px;" class="img_rect">
-	<p><a id="OptionTemplates"><a href="">Reinforcement Learning with Expert Interventions via Option Templates</a></a></p>
-	<p><a href="https://sites.google.com/site/duttasouradeep39/">Souradeep Dutta</a>, <b>Kaustubh Sridhar</b>, Osbert Bastani, James Weimer, Edgar Dobriban, Julia Parish-Morris, Insup Lee</p>
-	<p>preprint (TBA) / code (TBA) </p>
-	<p><small>We propose a framework for leveraging expert intervention to solve long-horizon reinforcement learning tasks. We consider option templates, which are specifications encoding a potential option that can be trained using reinforcement learning. We formulate expert intervention as allowing the agent to execute option templates  before learning an implementation, thereby enabling them to determine whether an option is useful before committing costly resources to learning that option. We demonstrate the benefits of our approach on two challenging reinforcement learning problems, improving performance by an order of magnitude compared to state-of-the-art approaches.
-		</small></p>
+	<!--<br>-->
+	<img src="/images/codit.png" alt="codit" align="left" style="width:250px; height:100px; padding: 35px;" class="img_rect">
+	<p><a id="CODiT"><a href="">CODiT: Conformal Out-of-distribution Detection in Time-series Data</a></a></p>
+	<p><a href="https://scholar.google.com/citations?user=tMfMh_wAAAAJ&hl=en">Ramneet Kaur</a>, <b>Kaustubh Sridhar</b>, <a href="https://sangdon.github.io/">Sangdon Park</a>, <a href="https://susmitjha.github.io/">Susmit Jha</a>, <a href="https://scholar.google.com/citations?user=N9eSuR4AAAAJ&hl=en">Anirban Roy</a>, Oleg Sokolsky, Insup Lee</p>
+	<p>Submitted to <a href="https://www.ijcai.org/">IJCAI</a> 2022</p>
+	<p>preprint (TBA) / code (TBA)</p>
+	<p><small>We develop a self-supervised learning approach, CODiT for OOD detection of time-series data with guarantees on detection. Specifically, we propose using deviation in the in-distribution (iD) temporal equivariance learned by a model from the training data for OOD detection in time-series data. Using the proposed deviation as the non-conformity measure in the conformal anomaly detection framework gives us an OOD detector with bounded false detection rate. We illustrate the efficacy of CODiT by achieving state-of-the-art results on computer vision datasets.</small></p>
 
 
 	<h5><ul>
