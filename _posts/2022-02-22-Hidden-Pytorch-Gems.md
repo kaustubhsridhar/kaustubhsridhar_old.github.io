@@ -11,3 +11,6 @@ Forward hooks are called during the forward pass of a layer. If you save the out
 Backward hooks are called during the backward pass. These can help save or manipulate gradients (eg. gradient clipping).
 
 Tqdm is a great progress bar tool. More [https://adamoudad.github.io/posts/progress_bar_with_tqdm/](here).
+
+A simple blog on training a VAE [https://avandekleut.github.io/vae/](here).
+
