@@ -25,7 +25,7 @@ title: Welcome To My Homepage
 	<img src="/images/fetch_4blocks.gif" alt="craft_fetch" align="left" style="width:300px; height:150px; padding: 10px;" class="img_rect">
 	<p><a id="OptionTemplates"><a href="https://arxiv.org/abs/2202.12967">Exploring with Sticky Mittens: Reinforcement Learning with Expert Interventions via Option Templates</a></a></p>
 	<p><a href="https://sites.google.com/site/duttasouradeep39/">Souradeep Dutta</a>, <b>Kaustubh Sridhar</b>, <a href="https://obastani.github.io/">Osbert Bastani</a>, <a href="https://statistics.wharton.upenn.edu/profile/dobriban/">Edgar Dobriban</a>, James Weimer, Insup Lee, Julia Parish-Morris</p>
-	<!--<p>Submitted to <a href="https://icml.cc/">ICML</a> 2022</p>-->
+	<!--<p>Submitted to <a href="">CoRL</a> 2022</p>-->
 	<p><a href="https://arxiv.org/abs/2202.12967">arXiv</a> / <a href="https://sites.google.com/view/stickymittens">website</a> / code (TBA) </p>
 	<p><small>Environments with sparse rewards and long horizons pose a significant challenge for current reinforcement learning algorithms. A key feature enabling humans to learn challenging control tasks is that they often receive expert intervention that enables them to understand the high-level structure of the task before mastering low-level control actions. We propose a framework for leveraging expert intervention to solve long-horizon reinforcement learning tasks. We consider option templates, which are specifications encoding a potential option that can be trained using reinforcement learning. We formulate expert intervention as allowing the agent to execute option templates before learning an implementation. This enables them to use an option, before committing costly resources to learning it. We evaluate our approach on three challenging reinforcement learning problems, showing that it out performs state-of-the-art approaches by an order of magnitude.
 		</small></p>
@@ -44,7 +44,7 @@ title: Welcome To My Homepage
 		
 	<br>
 	<img src="/images/codit.png" alt="codit" align="left" style="width:260px; height:135px; padding: 30px;" class="img_rect">
-	<p><a id="CODiT"><a href="">CODiT: Conformal Out-of-distribution Detection in Time-series Data</a></a></p>
+	<p><a id="CODiT"><a href="https://openreview.net/pdf?id=9j0wD5iV5f">CODiT: Conformal Out-of-distribution Detection in Time-series Data</a></a></p>
 	<p><a href="https://scholar.google.com/citations?user=tMfMh_wAAAAJ&hl=en">Ramneet Kaur</a>, <b>Kaustubh Sridhar</b>, <a href="https://sangdon.github.io/">Sangdon Park</a>, <a href="https://susmitjha.github.io/">Susmit Jha</a>, <a href="https://scholar.google.com/citations?user=N9eSuR4AAAAJ&hl=en">Anirban Roy</a>, Oleg Sokolsky, Insup Lee</p>
 	<p>Accepted to <a href="https://sites.google.com/view/icml-2022-pods">PODS</a> Workshop, <a href="https://icml.cc/Conferences/2022">ICML</a> 2022</p>
 	<p><a href="https://openreview.net/pdf?id=9j0wD5iV5f">paper</a> / code (TBA)</p>
@@ -58,6 +58,15 @@ title: Welcome To My Homepage
 	<p><a href="http://iccps.acm.org/2021/">ICCPS</a> 2021</p>
 	<p><a href="https://arxiv.org/abs/2002.09792">arXiv</a> / <a href="https://dl.acm.org/doi/abs/10.1145/3450267.3450535">proceedings</a> / <a href="https://advnet.seas.upenn.edu/#">dataset webpage</a></p>
 	<p><small>We propose a novel attack- and dataset-agnostic and real-time detector for digital / physical adversarial inputs to DNN-based perception systems. We demonstrate the efficiency of the proposed detector on ImageNet, a task that is computationally challenging for the majority of relevant defenses, and on physically attacked traffic signs that may be encountered in real-time autonomy applications.</small></p>
+		
+	<br>
+	<img src="/images/analysis.png" alt="AT_analysis" align="left" style="width:260px; height:135px; padding: 30px;" class="img_rect">
+	<p><a id="AT_analysis"><a href="https://arxiv.org/abs/2206.06496"></a>Towards Alternative Techniques for Improving Adversarial Robustness: Analysis of Adversarial Training at a Spectrum of Perturbations</a></p>
+	<p><b>Kaustubh Sridhar</b>, <a href="https://sites.google.com/site/duttasouradeep39/">Souradeep Dutta</a>, <a href="https://scholar.google.com/citations?user=tMfMh_wAAAAJ&hl=en">Ramneet Kaur</a>, James Weimer, Oleg Sokolsky, Insup Lee</p>
+	<!--<p>Accepted to <a href=""> </a> Workshop, <a href="">NeurIPS</a> 2022</p>-->
+	<p><a href="https://arxiv.org/abs/2206.06496">arXiv</a> / <a href="https://github.com/perturb-spectrum/analysis_and_methods">code</a></p>
+	<p><small>Adversarial training (AT) and its variants have spearheaded progress in improving neural network robustness to adversarial perturbations and common corruptions in the last few years. Algorithm design of AT and its variants are focused on training models at a specified perturbation strength ϵ and only using the feedback from the performance of that ϵ-robust model to improve the algorithm. In this work, we focus on models, trained on a spectrum of ϵ values. We analyze three perspectives: model performance, intermediate feature precision and convolution filter sensitivity. In each, we identify alternative improvements to AT that otherwise wouldn't have been apparent at a single ϵ. Specifically, we find that for a PGD attack at some strength δ, there is an AT model at some slightly larger strength ϵ, but no greater, that generalizes best to it. Hence, we propose overdesigning for robustness where we suggest training models at an ϵ just above δ. Second, we observe (across various ϵ values) that robustness is highly sensitive to the precision of intermediate features and particularly those after the first and second layer. Thus, we propose adding a simple quantization to defenses that improves accuracy on seen and unseen adaptive attacks. Third, we analyze convolution filters of each layer of models at increasing ϵ and notice that those of the first and second layer may be solely responsible for amplifying input perturbations. We present our findings and demonstrate our techniques through experiments with ResNet and WideResNet models on the CIFAR-10 and CIFAR-10-C datasets.
+		</small></p>
 		
 	<h5><ul>
 		<li><a id="CPS">Safety and Security of Autonomous Vehicles and other Cyber-Physical Systems.</a></li>
